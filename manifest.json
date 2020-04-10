@@ -15,6 +15,12 @@
       "css": ["bootstrap.min.css", "estimates.css"],
       "js": ["jquery.min.js", "estimates.js"],
       "run_at" : "document_end"
+    },
+    {
+      "matches": ["http://*/issues/*", "https://*/issues/*"],
+      "css": ["bootstrap.min.css", "estimates.css"],
+      "js": ["jquery.min.js", "estimates_issues.js"],
+      "run_at" : "document_end"
     }
   ]
 }
